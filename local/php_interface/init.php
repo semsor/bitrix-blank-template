@@ -5,3 +5,6 @@ require_once __DIR__ . '/include/settings.php';
 
 // Functions
 require_once __DIR__ . '/include/functions.php';
+
+// Events
+require_once __DIR__ . '/include/functions.php';
