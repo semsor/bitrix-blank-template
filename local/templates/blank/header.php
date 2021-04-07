@@ -8,6 +8,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\Page\Asset;
+use Bitrix\Main\UI\Extension;
+Extension::load('ui.bootstrap4');
 
 Loc::loadMessages(__FILE__);
 ?>
